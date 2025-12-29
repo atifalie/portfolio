@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
+const repoName = 'portfolio';
+
 const nextConfig = {
   output: 'export',
-  basePath: '/porfolio',
-  assetPrefix: '/porfolio/',
+
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
 
   images: {
     unoptimized: true,
