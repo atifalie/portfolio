@@ -21,17 +21,22 @@ export function HeroSection() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
               </span>
-              <span className="text-sm text-muted-foreground">Available for freelance work</span>
+              <span className="text-sm text-muted-foreground">Open to work</span>
             </div>
 
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-balance">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-balance">
+              Hi, I'm{" "}
               <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
-                Full Stack Developer
+                Atif Ali
               </span>
             </h1>
 
-            <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto text-balance">
-              Building scalable, modern web applications with cutting-edge technologies
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-6 text-muted-foreground">
+              Full Stack Web Developer
+            </h2>
+
+            <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto text-balance">
+              Building scalable, secure, and user-focused web applications with Laravel, Vue.js, and modern technologies
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -41,8 +46,8 @@ export function HeroSection() {
                   <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
-              <Button size="lg" variant="outline" className="text-lg bg-transparent">
-                <a href="#contact" className="flex items-center gap-2">
+              <Button size="lg" className="text-lg bg-gradient-to-r from-primary to-accent">
+                <a href="/atifAli.pdf" download="atifAli.pdf" className="flex items-center gap-2">
                   <Download className="h-5 w-5" />
                   Download CV
                 </a>

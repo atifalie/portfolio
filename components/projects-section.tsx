@@ -9,37 +9,39 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-    image: "/modern-ecommerce-dashboard.png",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "SaaS Analytics Dashboard",
+    title: "MyScribe",
     description:
-      "Real-time analytics platform with interactive charts, data visualization, and team collaboration features.",
-    image: "/analytics-dashboard-dark-theme.png",
-    tech: ["React", "Node.js", "MongoDB", "Socket.io"],
-    liveUrl: "#",
+      "Subscription platform with Stripe payment integration and AI-powered features for enhanced user experience and automated workflows.",
+    image: "/subscription-platform-dashboard.jpg",
+    tech: ["Laravel", "Vue.js", "Stripe", "AI Integration"],
+    liveUrl: "https://myscribe.us",
     githubUrl: "#",
   },
   {
-    title: "Project Management Tool",
+    title: "NavPoint Health",
     description:
-      "Collaborative project management application with Kanban boards, task tracking, and team communication.",
-    image: "/project-management-kanban-board.png",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Tailwind"],
-    liveUrl: "#",
+      "Comprehensive healthcare platform utilizing GraphQL APIs for efficient data management and real-time patient information systems.",
+    image: "/healthcare-platform-interface.png",
+    tech: ["Laravel", "GraphQL", "Lighthouse PHP", "Vue.js"],
+    liveUrl: "https://navpointhealth.com",
     githubUrl: "#",
   },
   {
-    title: "Social Media App",
-    description: "Social networking platform with real-time messaging, post sharing, and user authentication.",
-    image: "/social-media-app-interface.png",
-    tech: ["React", "Express", "MongoDB", "Redis"],
-    liveUrl: "#",
+    title: "K&M Business Solutions",
+    description:
+      "Multi-tenant business platform designed to streamline operations, manage clients, and provide scalable solutions for growing businesses.",
+    image: "/business-management-platform.jpg",
+    tech: ["Laravel", "Vue.js", "MySQL", "Multi-tenant"],
+    liveUrl: "https://kmsolve.com",
+    githubUrl: "#",
+  },
+  {
+    title: "The Commercial COOP",
+    description:
+      "Advanced multi-tenant system with real-time features, complex business logic, and robust data management for commercial operations.",
+    image: "/commercial-platform-dashboard.jpg",
+    tech: ["Laravel", "Vue.js", "Redis", "PostgreSQL"],
+    liveUrl: "https://thecommercialcoop.com",
     githubUrl: "#",
   },
 ]
@@ -49,7 +51,7 @@ export function ProjectsSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   return (
-    <section id="projects" className="py-20 sm:py-32" ref={ref}>
+    <section id="projects" className="py-20 sm:py-32 lg:px-16" ref={ref}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -60,7 +62,7 @@ export function ProjectsSection() {
             Featured Projects
           </h2>
           <p className="text-muted-foreground text-center mb-12 text-lg">
-            A showcase of my recent work and side projects
+            A showcase of my recent work and production applications
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -94,12 +96,16 @@ export function ProjectsSection() {
                       ))}
                     </div>
                     <div className="flex gap-3">
-                      <Button size="sm" className="flex-1" variant="default">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Live Demo
+                      <Button size="sm" className="flex-1" variant="default" asChild>
+                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-4 w-4 mr-2" />
+                          Live Demo
+                        </a>
                       </Button>
-                      <Button size="sm" variant="outline">
-                        <Github className="h-4 w-4" />
+                      <Button size="sm" variant="outline" asChild>
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <Github className="h-4 w-4" />
+                        </a>
                       </Button>
                     </div>
                   </CardContent>

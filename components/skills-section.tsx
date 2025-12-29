@@ -10,22 +10,22 @@ const skillCategories = [
   {
     title: "Frontend",
     icon: Code2,
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3", "JavaScript"],
+    skills: ["Vue.js", "Quasar", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "jQuery"],
   },
   {
     title: "Backend",
     icon: Server,
-    skills: ["Node.js", "Express.js", "REST APIs", "GraphQL", "Microservices"],
+    skills: ["Laravel (PHP)", "Node.js", "Express", "NestJS", "RESTful APIs", "GraphQL"],
   },
   {
     title: "Database",
     icon: Database,
-    skills: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Prisma"],
+    skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
   },
   {
     title: "Tools & DevOps",
     icon: Wrench,
-    skills: ["Git", "GitHub", "Docker", "Vercel", "AWS", "CI/CD"],
+    skills: ["Git", "Docker", "GitHub", "Lighthouse PHP"],
   },
 ]
 
@@ -34,7 +34,7 @@ export function SkillsSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   return (
-    <section id="skills" className="py-20 sm:py-32 bg-muted/30" ref={ref}>
+    <section id="skills" className="py-20 sm:py-32 bg-muted/30 lg:px-16" ref={ref}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -48,7 +48,7 @@ export function SkillsSection() {
             Technologies I work with to build amazing products
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             {skillCategories.map((category, index) => (
               <motion.div
                 key={category.title}

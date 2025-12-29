@@ -28,7 +28,7 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all md:px-32 duration-300 ${
         isScrolled ? "bg-background/80 backdrop-blur-xl border-b border-border" : "bg-transparent"
       }`}
     >
@@ -36,9 +36,9 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <a
             href="#"
-            className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
+            className="text-xl pr-8 sm:text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
           >
-            Atif Ali
+            Portfolio
           </a>
 
           {/* Desktop Navigation */}

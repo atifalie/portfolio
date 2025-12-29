@@ -27,20 +27,23 @@ export function AboutSection() {
             <CardContent className="p-6 sm:p-8">
               <div className="space-y-6 text-lg leading-relaxed">
                 <p className="text-pretty">
-                  I'm Atif Ali a <span className="text-primary font-semibold"> Full Stack Developer </span>with a passion for building scalable, modern web applications that make a
-                  real impact. With expertise spanning frontend frameworks like React and Next.js to backend
-                  technologies including Node.js and various databases, I bring ideas to life with clean, efficient
-                  code.
+                  I'm <span className="text-primary font-semibold">Atif Ali</span>, a results-driven{" "}
+                  <span className="text-primary font-semibold">Full Stack Web Developer</span> with a passion for
+                  building scalable, secure, and user-focused web applications that make a real impact. With strong
+                  expertise in Laravel, Vue.js, and API-driven systems including REST and GraphQL, I bring ideas to life
+                  with clean, efficient code.
                 </p>
                 <p className="text-pretty">
-                  Over <span className="text-primary font-semibold">5+ years</span> of experience, I've worked with
-                  startups and established companies, delivering solutions that prioritize user experience, performance,
-                  and maintainability. I believe in writing code that not only works but is also elegant and
-                  sustainable.
+                  Over <span className="text-primary font-semibold">3+ years</span> of hands-on experience, I've worked
+                  with startups and established companies, delivering solutions that prioritize user experience,
+                  performance, and maintainability. Currently working at{" "}
+                  <span className="text-primary font-semibold">NodeSol</span>, I've developed healthcare platforms,
+                  subscription services, and multi-tenant business solutions.
                 </p>
                 <p className="text-pretty">
-                  When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects,
-                  or sharing knowledge with the developer community through blog posts and tutorials.
+                  I believe in writing code that not only works but is also elegant and sustainable. When I'm not
+                  coding, you'll find me exploring new technologies, optimizing database performance, and mentoring
+                  junior developers to help them grow in their careers.
                 </p>
               </div>
             </CardContent>
