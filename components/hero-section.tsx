@@ -47,7 +47,7 @@ export function HeroSection() {
                 </a>
               </Button>
               <Button size="lg" className="text-lg bg-gradient-to-r from-primary to-accent">
-                <a href="/atifAli.pdf" download="atifAli.pdf" className="flex items-center gap-2">
+                <a href="/portfolio/atifAli.pdf" download="atifAli.pdf" className="flex items-center gap-2">
                   <Download className="h-5 w-5" />
                   Download CV
                 </a>

@@ -12,7 +12,7 @@ const projects = [
     title: "MyScribe",
     description:
       "Subscription platform with Stripe payment integration and AI-powered features for enhanced user experience and automated workflows.",
-    image: "/subscription-platform-dashboard.jpg",
+    image: "/portfolio/subscription-platform-dashboard.jpg",
     tech: ["Laravel", "Vue.js", "Stripe", "AI Integration"],
     liveUrl: "https://myscribe.us",
     githubUrl: "#",
@@ -21,7 +21,7 @@ const projects = [
     title: "NavPoint Health",
     description:
       "Comprehensive healthcare platform utilizing GraphQL APIs for efficient data management and real-time patient information systems.",
-    image: "/healthcare-platform-interface.png",
+    image: "/portfolio/healthcare-platform-interface.png",
     tech: ["Laravel", "GraphQL", "Lighthouse PHP", "Vue.js"],
     liveUrl: "https://navpointhealth.com",
     githubUrl: "#",
@@ -30,7 +30,7 @@ const projects = [
     title: "K&M Business Solutions",
     description:
       "Multi-tenant business platform designed to streamline operations, manage clients, and provide scalable solutions for growing businesses.",
-    image: "/business-management-platform.jpg",
+    image: "/portfolio/business-management-platform.jpg",
     tech: ["Laravel", "Vue.js", "MySQL", "Multi-tenant"],
     liveUrl: "https://kmsolve.com",
     githubUrl: "#",
@@ -39,7 +39,7 @@ const projects = [
     title: "The Commercial COOP",
     description:
       "Advanced multi-tenant system with real-time features, complex business logic, and robust data management for commercial operations.",
-    image: "/commercial-platform-dashboard.jpg",
+    image: "/portfolio/commercial-platform-dashboard.jpg",
     tech: ["Laravel", "Vue.js", "Redis", "PostgreSQL"],
     liveUrl: "https://thecommercialcoop.com",
     githubUrl: "#",
