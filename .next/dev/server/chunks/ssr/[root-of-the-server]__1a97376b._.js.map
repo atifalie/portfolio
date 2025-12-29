@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///home/atif/portfolio/components/theme-provider.tsx"],"sourcesContent":["\"use client\"\nimport { ThemeProvider as NextThemesProvider, type ThemeProviderProps, useTheme as useNextTheme } from \"next-themes\"\n\nexport function ThemeProvider({ children, ...props }: ThemeProviderProps) {\n  return <NextThemesProvider {...props}>{children}</NextThemesProvider>\n}\n\nexport function useTheme() {\n  const { theme, setTheme } = useNextTheme()\n\n  const toggleTheme = () => {\n    setTheme(theme === \"dark\" ? \"light\" : \"dark\")\n  }\n\n  return {\n    theme,\n    setTheme,\n    toggleTheme,\n  }\n}\n"],"names":[],"mappings":";;;;;;;AACA;AADA;;;AAGO,SAAS,cAAc,EAAE,QAAQ,EAAE,GAAG,OAA2B;IACtE,qBAAO,8WAAC,ySAAkB;QAAE,GAAG,KAAK;kBAAG;;;;;;AACzC;AAEO,SAAS;IACd,MAAM,EAAE,KAAK,EAAE,QAAQ,EAAE,GAAG,IAAA,oSAAY;IAExC,MAAM,cAAc;QAClB,SAAS,UAAU,SAAS,UAAU;IACxC;IAEA,OAAO;QACL;QACA;QACA;IACF;AACF"}}]
-}
