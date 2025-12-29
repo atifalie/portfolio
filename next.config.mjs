@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-
-  // 👇 ADD THESE TWO LINES
   basePath: '/porfolio',
   assetPrefix: '/porfolio/',
 
@@ -11,4 +9,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
