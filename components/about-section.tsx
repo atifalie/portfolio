@@ -37,8 +37,8 @@ export function AboutSection() {
                   </span>{" "}
                   with a passion building scalable, secure, and user-focused web
                   applications that make a real impact. With strong expertise in
-                  Laravel, Vue.js, and API-driven systems including REST and
-                  GraphQL, I bring ideas to life with clean, efficient code.
+                  Laravel, Vue.js, and API-driven systems REST and GraphQL, I
+                  bring ideas to life with clean, efficient code.
                 </p>
                 <p className="text-pretty">
                   Over{" "}
