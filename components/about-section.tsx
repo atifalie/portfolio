@@ -35,7 +35,7 @@ export function AboutSection() {
                   <span className="text-primary font-semibold">
                     Full Stack Web Developer
                   </span>{" "}
-                  with a passion building scalable, secure, and user-focused web
+                  with a passion scalable, secure, and user-focused web
                   applications that make a real impact. With strong expertise in
                   Laravel, Vue.js, and API-driven systems REST and GraphQL, I
                   bring ideas to life with clean, efficient code.
