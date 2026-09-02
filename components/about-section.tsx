@@ -1,5 +1,4 @@
 "use client";
-
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
@@ -35,11 +34,10 @@ export function AboutSection() {
                   <span className="text-primary font-semibold">
                     Full Stack Web Developer
                   </span>{" "}
-                  with a passion for building scalable, secure, and user-focused
-                  web applications that make a real impact. With strong
-                  expertise in Laravel, Vue.js, and API-driven systems including
-                  REST and GraphQL, I bring ideas to life with clean, efficient
-                  code.
+                  with a passion scalable, secure, and user-focused web
+                  applications that make a real impact. With strong expertise in
+                  Laravel, Vue.js, and API-driven systems REST and GraphQL, I
+                  bring ideas to life with clean, efficient code.
                 </p>
                 <p className="text-pretty">
                   Over{" "}
