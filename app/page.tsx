@@ -14,9 +14,8 @@ export default function Home() {
     <main className="relative">
 
       <Navigation />
-
       <HeroSection />
-      
+
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
