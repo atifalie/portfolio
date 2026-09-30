@@ -9,6 +9,8 @@ import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
 
+
+
 export default function Home() {
   return (
     <main className="relative">
