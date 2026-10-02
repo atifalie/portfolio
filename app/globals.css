@@ -39,6 +39,8 @@
   --green: oklch(0.67 0.22 134.39);
 }
 
+
+
 .dark {
   --background: oklch(0.1 0.01 264);
   --foreground: oklch(0.95 0.01 264);
