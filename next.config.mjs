@@ -11,6 +11,7 @@
 // export default nextConfig
 
 /** @type {import('next').NextConfig} */
+
 const repoName = 'portfolio';
 
 const nextConfig = {
